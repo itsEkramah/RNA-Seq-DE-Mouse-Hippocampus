@@ -1,0 +1,53 @@
+{
+  "analysis": "GSE116773 public HTSeq counts; new count-level reanalysis",
+  "reference": "GRCm38",
+  "design": "~ condition",
+  "contrast": "Notch2CKO / WildType",
+  "effect_estimator": "Unshrunk maximum-likelihood log2 fold change",
+  "source_genes": 48321,
+  "technical_files": 24,
+  "biological_samples": 6,
+  "biological_samples_per_condition": {
+    "WildType": 3,
+    "Notch2CKO": 3
+  },
+  "filter": "At least 10 raw counts in at least 3 biological samples",
+  "retained_genes": 21531,
+  "removed_low_count_genes": 26790,
+  "finite_pvalues": 21273,
+  "finite_padj": 20022,
+  "missing_pvalues": 258,
+  "missing_padj": 1509,
+  "fdr_below_0_05": 121,
+  "higher_in_cko": 77,
+  "lower_in_cko": 44,
+  "fdr_and_abs_lfc_ge_1": 116,
+  "fdr_without_independent_filter": 119,
+  "pca_variance_fraction": [
+    0.6123323090543833,
+    0.18305003409590614
+  ],
+  "nonconverged_flags": {
+    "_genewise_converged": 5,
+    "_MAP_converged": 7,
+    "_LFC_converged": 0
+  },
+  "warnings": [
+    "FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '[ True  True  True ...  True  True  True]' has dtype incompatible with float64, please explicitly cast to a compatible dtype first."
+  ],
+  "original_files_preserved": 31,
+  "source_archive_sha256": "d55d6286394a58b4800499ebbba7bbd209f342b730f6c433ad312bc55fe2f480",
+  "legacy_audit": {
+    "rows": 29970,
+    "duplicate_gene_ids": 0,
+    "missing_pvalue": 2019,
+    "missing_padj": 10914,
+    "fdr_below_0_05": 43,
+    "fdr_and_abs_lfc_at_least_1": 29,
+    "positive_lfc_hits": 23,
+    "negative_lfc_hits": 6,
+    "missing_legacy_flag": 2,
+    "flag_yes_disagreement": 0,
+    "status": "Table audit only; original model cannot be reproduced without original counts."
+  }
+}

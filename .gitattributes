@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+data/sample_sheet.csv text eol=lf
+data/source/ena_runs.tsv text eol=lf
+data/source/geo_metadata_excerpt.soft text eol=lf
+data/source/provenance.json text eol=lf

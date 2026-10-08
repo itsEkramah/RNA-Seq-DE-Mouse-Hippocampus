@@ -1,0 +1,15 @@
+{
+  "retrieved_on": "2026-10-08",
+  "geo_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE116773",
+  "metadata_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE116773&targ=all&form=text&view=full",
+  "archive_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE116nnn/GSE116773/suppl/GSE116773_RAW.tar",
+  "ena_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA480214&result=read_run&fields=run_accession,experiment_accession,sample_accession,library_layout,read_count,base_count&format=tsv",
+  "metadata_note": "Excerpt retains scientific and accession fields verbatim; platform probe table and contact fields omitted.",
+  "reference": "GRCm38; study-provided Bowtie2/HTSeq gene-symbol counts. Not the original semester GRCm39/Ensembl 114 featureCounts data.",
+  "files": {
+    "ena_runs.tsv": "02c23bd61c0d4a84a6e6690f5e743a7d1163dd37a83d5f1dd3c0bf85172f62cf",
+    "geo_metadata_excerpt.soft": "4c528432ac6e85d0292d6ca7217c2753fe1d41f248b45312451e459c3866cd44",
+    "GSE116773_RAW.tar": "d55d6286394a58b4800499ebbba7bbd209f342b730f6c433ad312bc55fe2f480"
+  },
+  "sample_sheet_sha256": "872ab4c844215000979424b7d414c6e08272df5d73f30231ede7f0c36ac5fa0e"
+}

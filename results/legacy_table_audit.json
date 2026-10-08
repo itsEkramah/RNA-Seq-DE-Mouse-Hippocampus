@@ -1,0 +1,13 @@
+{
+  "rows": 29970,
+  "duplicate_gene_ids": 0,
+  "missing_pvalue": 2019,
+  "missing_padj": 10914,
+  "fdr_below_0_05": 43,
+  "fdr_and_abs_lfc_at_least_1": 29,
+  "positive_lfc_hits": 23,
+  "negative_lfc_hits": 6,
+  "missing_legacy_flag": 2,
+  "flag_yes_disagreement": 0,
+  "status": "Table audit only; original model cannot be reproduced without original counts."
+}

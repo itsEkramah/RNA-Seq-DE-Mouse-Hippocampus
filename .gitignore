@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+.pytest_cache/
+pytest-cache-files-*/
+*.py[cod]
+tmp/
+.Rhistory
+.RData
+.DS_Store
+Thumbs.db
+results/.running

@@ -1,0 +1,191 @@
+{
+  "baseline_commit": "09193fe155847139b3d926b19f4a6ef5afa14ce9",
+  "files": [
+    {
+      "original_path": "# #Differential Expression Analysis.r",
+      "preserved_path": "legacy/original_scripts/interactive_DE_wrapper.r",
+      "sha256": "96fd6a25201efb8bce7f3dd99bd00d77bd1e40880a6e193bb317496c4877d295",
+      "bytes": 11520
+    },
+    {
+      "original_path": "#Adapter and Quality Trimming (Trimmomat.sh",
+      "preserved_path": "legacy/original_scripts/trim_reads.sh",
+      "sha256": "4ab734bfb3e5ed46883edfb6013a10a70a4443165ea728557bf843ec4b3adbc8",
+      "bytes": 1206
+    },
+    {
+      "original_path": "#Align Trimmed Reads to Mouse Reference .sh",
+      "preserved_path": "legacy/original_scripts/align_reads.sh",
+      "sha256": "204824a584ed8f3ae905e4b050798ddc8a81cfd2863d6fb58d4dd556208a1777",
+      "bytes": 1231
+    },
+    {
+      "original_path": "#Build HISAT2 Index for Mouse Genome:.sh",
+      "preserved_path": "legacy/original_scripts/build_hisat2_index.sh",
+      "sha256": "418cf9c37f1d3b0ae1345b78d42d5e3d7ad5d95caf29dc04c523a57d7e047c1d",
+      "bytes": 564
+    },
+    {
+      "original_path": "#Downloads the Mus musculus GRCm39 prima.sh",
+      "preserved_path": "legacy/original_scripts/download_reference.sh",
+      "sha256": "b82b610cc0cf06d61491cb4eca8973b5caffdd7ddc4084070401051dd64b4c2d",
+      "bytes": 890
+    },
+    {
+      "original_path": "#Quality Control (FastQC) & MultiQC Repo.sh",
+      "preserved_path": "legacy/original_scripts/read_qc.sh",
+      "sha256": "ba2c13f7d9bcc5255698772c1f7dcc7a0aadacc82cac95a23cbaf36916ebeca0",
+      "bytes": 590
+    },
+    {
+      "original_path": "#Quantify Gene Expression (featureCounts.sh",
+      "preserved_path": "legacy/original_scripts/featurecounts.sh",
+      "sha256": "e212419344cac77ac5b06e2997d6664b1a156a4836e369c40452ab481fbe0e08",
+      "bytes": 746
+    },
+    {
+      "original_path": "#SETUP PROJECT DIRECTORY AND DOWNLOAD DATA .sh",
+      "preserved_path": "legacy/original_scripts/setup_and_download.sh",
+      "sha256": "2682580d9b1df7c4d0907e78301170a1f463c62feda7f9cf4bd447d55fa35d91",
+      "bytes": 3962
+    },
+    {
+      "original_path": ".gitattributes",
+      "preserved_path": "legacy/.gitattributes_original",
+      "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
+      "bytes": 66
+    },
+    {
+      "original_path": "05_DE_analysis/MA_plot.pdf",
+      "preserved_path": "05_DE_analysis/MA_plot.pdf",
+      "sha256": "b2079de997b1a95db05af420e1f9ab7079b6914a40c9bdb35194450292de87ee",
+      "bytes": 1701795
+    },
+    {
+      "original_path": "05_DE_analysis/PCA_plot.pdf",
+      "preserved_path": "05_DE_analysis/PCA_plot.pdf",
+      "sha256": "fa65fe7e3773ca042e6a899ac5a0dfb741b8565547e1d182b8585d0d37c2970a",
+      "bytes": 5495
+    },
+    {
+      "original_path": "05_DE_analysis/deseq2_results.csv",
+      "preserved_path": "05_DE_analysis/deseq2_results.csv",
+      "sha256": "2fa7fa90e59cdad62e48bdf8f9eea42651d77c33667381c2c8ccc17888f7693b",
+      "bytes": 3927497
+    },
+    {
+      "original_path": "05_DE_analysis/dispersion_plot.pdf",
+      "preserved_path": "05_DE_analysis/dispersion_plot.pdf",
+      "sha256": "88d19d9222145128d7f68f4d66fdcb32ac53382645a9979f422dee17b95c1e26",
+      "bytes": 5021411
+    },
+    {
+      "original_path": "05_DE_analysis/heatmap_top_DE_genes.pdf",
+      "preserved_path": "05_DE_analysis/heatmap_top_DE_genes.pdf",
+      "sha256": "7cda1223259662677164059a96853a32343b3626d4d6a7ffd528d5a4d199ca71",
+      "bytes": 8995
+    },
+    {
+      "original_path": "05_DE_analysis/sample_distance_heatmap.pdf",
+      "preserved_path": "05_DE_analysis/sample_distance_heatmap.pdf",
+      "sha256": "4579cb6f4cdeb7f1cf87d87523c83c6e781d2dfb20954f150b79e993670173d2",
+      "bytes": 3611
+    },
+    {
+      "original_path": "05_DE_analysis/top_gene_counts_plots.pdf",
+      "preserved_path": "05_DE_analysis/top_gene_counts_plots.pdf",
+      "sha256": "8bd88f0a6b40063148fbff0ffc9459260bc5ee53f20662f64471330f6c4a8175",
+      "bytes": 10427
+    },
+    {
+      "original_path": "05_DE_analysis/volcano_plot.pdf",
+      "preserved_path": "05_DE_analysis/volcano_plot.pdf",
+      "sha256": "cd2d5d5ef8d9187a623dc0eec2c2050258a0124d79190af9fa2dd2332516cd95",
+      "bytes": 1451524
+    },
+    {
+      "original_path": "Converted_PDF_Images/MA_plot/MA_plot-1.png",
+      "preserved_path": "Converted_PDF_Images/MA_plot/MA_plot-1.png",
+      "sha256": "83740e75a8b7b5d14c7e86a1420c1b3350a16d26991a83701583414327cc0294",
+      "bytes": 134681
+    },
+    {
+      "original_path": "Converted_PDF_Images/PCA_plot/PCA_plot-1.png",
+      "preserved_path": "Converted_PDF_Images/PCA_plot/PCA_plot-1.png",
+      "sha256": "40ded56b7742e9b5b3e66208804b7eda44d9c7828722c1be35cdec38880570d1",
+      "bytes": 74666
+    },
+    {
+      "original_path": "Converted_PDF_Images/dispersion_plot/dispersion_plot-1.png",
+      "preserved_path": "Converted_PDF_Images/dispersion_plot/dispersion_plot-1.png",
+      "sha256": "0b5ee4ede7407dd26110c3fcab083bb9dab7d1058ab250e7e0ebe14bca51ccfc",
+      "bytes": 231910
+    },
+    {
+      "original_path": "Converted_PDF_Images/heatmap_top_DE_genes/heatmap_top_DE_genes-1.png",
+      "preserved_path": "Converted_PDF_Images/heatmap_top_DE_genes/heatmap_top_DE_genes-1.png",
+      "sha256": "7c51131c9a378f9e4037e56427628ce3bd6b6abfc8b3c0733b545277a84707f8",
+      "bytes": 73864
+    },
+    {
+      "original_path": "Converted_PDF_Images/top_gene_counts_plots/top_gene_counts_plots-1.png",
+      "preserved_path": "Converted_PDF_Images/top_gene_counts_plots/top_gene_counts_plots-1.png",
+      "sha256": "da42c5e6540ef8516844421a9c8c3cf2a4132148c6da66b96dce2a0d12b0891c",
+      "bytes": 91358
+    },
+    {
+      "original_path": "Converted_PDF_Images/top_gene_counts_plots/top_gene_counts_plots-2.png",
+      "preserved_path": "Converted_PDF_Images/top_gene_counts_plots/top_gene_counts_plots-2.png",
+      "sha256": "104a8f3fd6c689e5603a8f3a326d508bee87ea9120552612ce9f402ded0dca5a",
+      "bytes": 87415
+    },
+    {
+      "original_path": "Converted_PDF_Images/top_gene_counts_plots/top_gene_counts_plots-3.png",
+      "preserved_path": "Converted_PDF_Images/top_gene_counts_plots/top_gene_counts_plots-3.png",
+      "sha256": "a5905fb5f2d38b922328db2e407d480142dfc54c76f0596a3d7424e6348d6fa6",
+      "bytes": 85435
+    },
+    {
+      "original_path": "Converted_PDF_Images/top_gene_counts_plots/top_gene_counts_plots-4.png",
+      "preserved_path": "Converted_PDF_Images/top_gene_counts_plots/top_gene_counts_plots-4.png",
+      "sha256": "3d18c40884163e5c91321b1fb06a8282cb249bd11641549d69c67c8fdc213c88",
+      "bytes": 82347
+    },
+    {
+      "original_path": "Converted_PDF_Images/top_gene_counts_plots/top_gene_counts_plots-5.png",
+      "preserved_path": "Converted_PDF_Images/top_gene_counts_plots/top_gene_counts_plots-5.png",
+      "sha256": "3a6d93117a318024e5b51c72e6d37569ca31e324e553a49d23088c6a2c8ee683",
+      "bytes": 78547
+    },
+    {
+      "original_path": "Converted_PDF_Images/volcano_plot/volcano_plot-1.png",
+      "preserved_path": "Converted_PDF_Images/volcano_plot/volcano_plot-1.png",
+      "sha256": "a396dcce7730798edf131396a5b6934c139ca71fd08290d61c6cf6af94964aac",
+      "bytes": 229055
+    },
+    {
+      "original_path": "DE Analysis by using bash.sh",
+      "preserved_path": "legacy/original_scripts/terminal_DE_wrapper.sh",
+      "sha256": "72d02d53ccb3530459eb2fb927e69df73907f4ba2a24d6b037ab46c1bf982c2b",
+      "bytes": 9419
+    },
+    {
+      "original_path": "DE_analysis.R",
+      "preserved_path": "legacy/original_scripts/DE_analysis.R",
+      "sha256": "0a6077561fbe379d41f9bcbc5aa1bf5e04387cf3b3a69c58be5b3b131a508ec7",
+      "bytes": 10369
+    },
+    {
+      "original_path": "LICENSE",
+      "preserved_path": "LICENSE",
+      "sha256": "75b3d210b3e8fc02f95b0f33cc82d3b29c873ee2ef33f65d9663454aab8e950b",
+      "bytes": 1073
+    },
+    {
+      "original_path": "README.md",
+      "preserved_path": "legacy/README_original.md",
+      "sha256": "d2efde9199044977885f9bb2ef0cdf158355365e8e506651ad2b947695de1d15",
+      "bytes": 7104
+    }
+  ]
+}
